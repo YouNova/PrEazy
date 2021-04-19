@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorDetailsActivity">
+
+    <ImageView
+        android:id="@+id/imageViewDoctorClipart"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/doctorClipart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_doctor" />
+
+    <TextView
+        android:id="@+id/textViewDoctorName"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:autoSizeMaxTextSize="32sp"
+        android:autoSizeMinTextSize="28sp"
+        android:autoSizeTextType="uniform"
+        android:text="@string/randomText"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/imageViewDoctorClipart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/imageViewDoctorClipart" />
+
+    <TextView
+        android:id="@+id/textViewDoctorEmailView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/email_id"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@id/imageViewDoctorClipart"
+        app:layout_constraintTop_toBottomOf="@id/imageViewDoctorClipart" />
+
+    <TextView
+        android:id="@+id/textViewDoctorEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/randomText"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@id/textViewDoctorEmailView"
+        app:layout_constraintTop_toBottomOf="@id/textViewDoctorEmailView" />
+
+    <TextView
+        android:id="@+id/textViewDoctorContactNumberView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/contact_number"
+        app:layout_constraintStart_toStartOf="@id/textViewDoctorEmail"
+        app:layout_constraintTop_toBottomOf="@id/textViewDoctorEmail" />
+
+    <TextView
+        android:id="@+id/textViewDoctorContactNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/randomText"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@id/textViewDoctorContactNumberView"
+        app:layout_constraintTop_toBottomOf="@id/textViewDoctorContactNumberView" />
+
+    <TextView
+        android:id="@+id/textViewDoctorCertificationNumberView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/certification_number"
+        app:layout_constraintStart_toStartOf="@id/textViewDoctorContactNumber"
+        app:layout_constraintTop_toBottomOf="@id/textViewDoctorContactNumber" />
+
+    <TextView
+        android:id="@+id/textViewDoctorCertificationNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/randomText"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@id/textViewDoctorCertificationNumberView"
+        app:layout_constraintTop_toBottomOf="@id/textViewDoctorCertificationNumberView" />
+
+    <TextView
+        android:id="@+id/textViewDoctorPrescriptionCountView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/prescriptionCount"
+        app:layout_constraintStart_toStartOf="@id/textViewDoctorCertificationNumber"
+        app:layout_constraintTop_toBottomOf="@id/textViewDoctorCertificationNumber" />
+
+    <TextView
+        android:id="@+id/textViewDoctorPrescriptionCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/randomText"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@id/textViewDoctorPrescriptionCountView"
+        app:layout_constraintTop_toBottomOf="@id/textViewDoctorPrescriptionCountView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

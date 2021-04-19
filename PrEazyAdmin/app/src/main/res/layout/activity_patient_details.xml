@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PatientDetailsActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageViewPatientClipart"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/patientClipart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/ic_patient" />
+
+        <TextView
+            android:id="@+id/textViewPatientName"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:autoSizeMaxTextSize="32sp"
+            android:autoSizeMinTextSize="28sp"
+            android:autoSizeTextType="uniform"
+            android:text="@string/randomText"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageViewPatientClipart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@id/imageViewPatientClipart" />
+
+        <TextView
+            android:id="@+id/textViewPatientEmailView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="35dp"
+            android:text="@string/email_id"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@id/imageViewPatientClipart"
+            app:layout_constraintTop_toBottomOf="@id/imageViewPatientClipart" />
+
+        <TextView
+            android:id="@+id/textViewPatientEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/randomText"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="@id/textViewPatientEmailView"
+            app:layout_constraintTop_toBottomOf="@id/textViewPatientEmailView" />
+
+        <TextView
+            android:id="@+id/textViewPatientContactNumberView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="@string/contact_number"
+            app:layout_constraintStart_toStartOf="@id/textViewPatientEmail"
+            app:layout_constraintTop_toBottomOf="@id/textViewPatientEmail" />
+
+        <TextView
+            android:id="@+id/textViewPatientContactNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/randomText"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="@id/textViewPatientContactNumberView"
+            app:layout_constraintTop_toBottomOf="@id/textViewPatientContactNumberView" />
+
+        <TextView
+            android:id="@+id/textViewPatientAgeView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="@string/age"
+            app:layout_constraintStart_toStartOf="@id/textViewPatientContactNumber"
+            app:layout_constraintTop_toBottomOf="@id/textViewPatientContactNumber" />
+
+        <TextView
+            android:id="@+id/textViewPatientAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/randomText"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="@id/textViewPatientAgeView"
+            app:layout_constraintTop_toBottomOf="@id/textViewPatientAgeView" />
+
+        <TextView
+            android:id="@+id/textViewPatientHeightView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/height"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/textViewPatientAgeView"
+            app:layout_constraintTop_toTopOf="@id/textViewPatientAgeView" />
+
+        <TextView
+            android:id="@+id/textViewPatientHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/randomText"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="@id/textViewPatientHeightView"
+            app:layout_constraintTop_toBottomOf="@id/textViewPatientHeightView" />
+
+        <TextView
+            android:id="@+id/textViewPatientGenderView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="@string/gender"
+            app:layout_constraintStart_toStartOf="@id/textViewPatientAge"
+            app:layout_constraintTop_toBottomOf="@id/textViewPatientAge" />
+
+        <TextView
+            android:id="@+id/textViewPatientGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/randomText"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="@id/textViewPatientGenderView"
+            app:layout_constraintTop_toBottomOf="@id/textViewPatientGenderView" />
+
+        <TextView
+            android:id="@+id/textViewPatientWeightView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="@string/weight"
+            app:layout_constraintStart_toStartOf="@id/textViewPatientHeight"
+            app:layout_constraintTop_toBottomOf="@id/textViewPatientHeight" />
+
+        <TextView
+            android:id="@+id/textViewPatientWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/randomText"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="@id/textViewPatientWeightView"
+            app:layout_constraintTop_toBottomOf="@id/textViewPatientWeightView" />
+
+        <TextView
+            android:id="@+id/textViewPatientBloodGroupView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="@string/bloodGroup"
+            app:layout_constraintStart_toStartOf="@id/textViewPatientGender"
+            app:layout_constraintTop_toBottomOf="@id/textViewPatientGender" />
+
+        <TextView
+            android:id="@+id/textViewPatientBloodGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/randomText"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="@id/textViewPatientBloodGroupView"
+            app:layout_constraintTop_toBottomOf="@id/textViewPatientBloodGroupView" />
+
+        <TextView
+            android:id="@+id/textViewPatientAllergiesView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="@string/allergies"
+            app:layout_constraintStart_toStartOf="@id/textViewPatientBloodGroup"
+            app:layout_constraintTop_toBottomOf="@id/textViewPatientBloodGroup" />
+
+        <TextView
+            android:id="@+id/textViewPatientAllergies"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:autoSizeMaxTextSize="24sp"
+            android:autoSizeMinTextSize="18sp"
+            android:autoSizeTextType="uniform"
+            android:paddingBottom="20dp"
+            android:text="@string/randomText"
+            android:textAlignment="viewStart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/textViewPatientAllergiesView"
+            app:layout_constraintTop_toBottomOf="@id/textViewPatientAllergiesView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

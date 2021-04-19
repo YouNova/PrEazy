@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "203173920249",
+    "firebase_url": "https://preazy-7fe6c.firebaseio.com",
+    "project_id": "preazy-7fe6c",
+    "storage_bucket": "preazy-7fe6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203173920249:android:aa90712efe193430c09128",
+        "android_client_info": {
+          "package_name": "com.anusvg.preazy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203173920249-ol023cneq3v70rsnotliidt5fu8q0bi1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anusvg.preazy",
+            "certificate_hash": "51db5e1d2ea71a6c67052725de482272d10e6a28"
+          }
+        },
+        {
+          "client_id": "203173920249-i0ea5v851tsfplh2qhuth80gdd1fgjf2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4Gx3cGLH9BRtKGNl7QeISeu3I2QJVb24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "203173920249-i0ea5v851tsfplh2qhuth80gdd1fgjf2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

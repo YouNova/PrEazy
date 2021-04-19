@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PharmacyDetailsActivity">
+
+    <ImageView
+        android:id="@+id/imageViewPharmacyClipart"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/pharmacyClipart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ic_pharmacy" />
+
+    <TextView
+        android:id="@+id/textViewPharmacyName"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:autoSizeMaxTextSize="32sp"
+        android:autoSizeMinTextSize="28sp"
+        android:autoSizeTextType="uniform"
+        android:text="@string/randomText"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewPharmacyClipart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@id/imageViewPharmacyClipart" />
+
+    <TextView
+        android:id="@+id/textViewPharmacyEmailView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/email_id"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@id/imageViewPharmacyClipart"
+        app:layout_constraintTop_toBottomOf="@id/imageViewPharmacyClipart" />
+
+    <TextView
+        android:id="@+id/textViewPharmacyEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/randomText"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@id/textViewPharmacyEmailView"
+        app:layout_constraintTop_toBottomOf="@id/textViewPharmacyEmailView" />
+
+    <TextView
+        android:id="@+id/textViewPharmacyContactNumberView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/contact_number"
+        app:layout_constraintStart_toStartOf="@id/textViewPharmacyEmail"
+        app:layout_constraintTop_toBottomOf="@id/textViewPharmacyEmail" />
+
+    <TextView
+        android:id="@+id/textViewPharmacyContactNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/randomText"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@id/textViewPharmacyContactNumberView"
+        app:layout_constraintTop_toBottomOf="@id/textViewPharmacyContactNumberView" />
+
+    <TextView
+        android:id="@+id/textViewPharmacyLicenseNumberView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/license_number"
+        app:layout_constraintStart_toStartOf="@id/textViewPharmacyContactNumber"
+        app:layout_constraintTop_toBottomOf="@id/textViewPharmacyContactNumber" />
+
+    <TextView
+        android:id="@+id/textViewPharmacyLicenseNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/randomText"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@id/textViewPharmacyLicenseNumberView"
+        app:layout_constraintTop_toBottomOf="@id/textViewPharmacyLicenseNumberView" />
+
+    <TextView
+        android:id="@+id/textViewPharmacyAddressView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/address"
+        app:layout_constraintStart_toStartOf="@id/textViewPharmacyLicenseNumber"
+        app:layout_constraintTop_toBottomOf="@id/textViewPharmacyLicenseNumber" />
+
+    <TextView
+        android:id="@+id/textViewPharmacyAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/randomText"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@id/textViewPharmacyAddressView"
+        app:layout_constraintTop_toBottomOf="@id/textViewPharmacyAddressView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

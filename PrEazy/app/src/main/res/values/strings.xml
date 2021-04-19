@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">PrEazy</string>
+    <string name="imageDescriptionLogo">LogoImage</string>
+    <string name="textViewLoading">Loading&#8230;</string>
+    <string name="buttonViewLogin">Login</string>
+    <string name="buttonViewSignUp">Sign Up</string>
+    <string name="textViewOr">or</string>
+    <string name="hintEmail">Email Id</string>
+    <string name="hintName">Name</string>
+    <string name="hintNumber">Phone Number</string>
+    <string name="textViewAskMode">Type of User</string>
+    <string name="radioButtonDoctor">Doctor</string>
+    <string name="radioButtonPharmacy">Pharmacy</string>
+    <string name="radioButtonPatient">Patient(User)</string>
+    <string name="textViewAskGender">Gender</string>
+    <string name="radioButtonMale">Male</string>
+    <string name="radioButtonFemale">Female</string>
+    <string name="radioButtonLGBTQ">Would not like\n to mention</string>
+    <string name="textViewAskBloodGroup">BloodGroup</string>
+    <string name="radioButtonAplus">A +ve</string>
+    <string name="radioButtonAminus">A -ve</string>
+    <string name="radioButtonBplus">B +ve</string>
+    <string name="radioButtonBminus">B -ve</string>
+    <string name="radioButtonABplus">AB +ve</string>
+    <string name="radioButtonABminuus">AB -ve</string>
+    <string name="radioButtonOplus">O +ve</string>
+    <string name="radioButtonOminus">O -ve</string>
+    <string name="hintAllergies">Allergies</string>
+    <string name="checkBoxTandC">I Accept all Terms &amp; Conditions</string>
+    <string name="hintRegistrationNumber">Registration Number</string>
+    <string name="hintLicenceNumber">Licence Number</string>
+    <string name="hintAddress">Address</string>
+    <string name="hintPassword">Password</string>
+    <string name="textViewAboutUs"><![CDATA[
+\nRecyclerViewAdapter:
+\nThe MIT License (MIT)
+\nCopyright © 2016 Gustavo Pagani
+\n
+\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+\n
+\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+\n
+\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+\n
+\nandroidmads/QRGenerator:
+\nThe MIT License (MIT)
+\nCopyright © 2016 AndroidMad / Mushtaq M A
+\n
+\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+\n
+\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+\n
+\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+\n
+\nzxing-android-embedded/QR Scanner:
+\nLicensed under the Apache License 2.0
+\nCopyright © 2012-2018 ZXing authors, Journey Mobile
+\n
+\nLicensed under the Apache License, Version 2.0 (the "License");
+\nyou may not use this file except in compliance with the License. You may obtain a copy of the License at:
+\n
+\nhttp://www.apache.org/licenses/LICENSE-2.0
+\n
+\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+\n
+\nDexter/QR Scanner Permission:
+\nCopyright 2015 Karumi
+\n
+\nLicensed under the Apache License, Version 2.0 (the "License");
+\nyou may not use this file except in compliance with the License. You may obtain a copy of the License at:
+\n
+\nhttp://www.apache.org/licenses/LICENSE-2.0
+\n
+\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+\n
+\nMPAndroidChart:
+\nCopyright 2019 Philipp Jahoda
+\n
+\nLicensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at:
+\n
+\nhttp://www.apache.org/licenses/LICENSE-2.0
+\n
+\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+\n
+\nlecho/hellocharts-android:
+\nHelloCharts(LechoCharts)
+\nCopyright 2014 Leszek Wach
+\n
+\nLicensed under the Apache License, Version 2.0 (the "License");
+\nyou may not use this file except in compliance with the License. You may obtain a copy of the License at:
+\n
+\nhttp://www.apache.org/licenses/LICENSE-2.0
+\n
+\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+\n
+\nFirebase-Firestore:
+\n
+\nFirebase-Auth:
+\n
+\nMultiDex.java:
+\nCopyright © 2013 The Android Open Source Project
+\n
+\nLicensed under the Apache License, Version 2.0 (the "License");
+\nyou may not use this file except in compliance with the License. You may obtain a copy of the License at:
+\n
+\nhttp://www.apache.org/licenses/LICENSE-2.0
+\n
+\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.]]></string>
+    <string name="buttonViewTermsAndConditions">Terms &amp; Conditions</string>
+    <string name="buttonViewAboutUs">About Us</string>
+    <string name="buttonViewLogOut">Log Out</string>
+    <string name="textViewPatientId">Patient Id</string>
+    <string name="blankSpace"> </string>
+    <string name="randomText"> </string>
+    <string name="textViewPatientName">Patient Name</string>
+    <string name="textViewDate">Date</string>
+    <string name="textViewAge">Age</string>
+    <string name="textViewAllergies">Allergies</string>
+    <string name="textViewSymptoms">Symptoms</string>
+    <string name="textViewMedicine">Medicine</string>
+    <string name="textViewTimings">Medicine       \nTimings</string>
+    <string name="checkBoxMorning">Morning</string>
+    <string name="checkBoxAfternoon">Afternoon</string>
+    <string name="checkBoxEvening">Evening</string>
+    <string name="textViewQuantity">Medicine Qty.</string>
+    <string name="buttonViewCreatePrescription">Create Prescription</string>
+    <string name="textViewBloodGroup">Blood Group</string>
+    <string name="textViewForDoctor">Do not add \'Dr.\' in your name, it will be added\n automatically</string>
+    <string name="textViewHeight">Height</string>
+    <string name="textViewWeight">Weight</string>
+    <string name="textViewDuration">Duration</string>
+    <string name="textViewDurationHint">(in days and mention\npattern of medicine if any)</string>
+    <string name="hintDoB">Date of Birth(yyyy-mm-dd)</string>
+    <string name="hintHeight">Height (in feet)</string>
+    <string name="hintWeight">Weight (in kgs)</string>
+    <string name="textViewPrescriptionID">Prescription ID</string>
+    <string name="textViewDoctorName">Doctor Name</string>
+    <string name="textViewMedicineQty_ViewPrescription">Quantity</string>
+    <string name="TextViewMedicineTime_ViewPrescription">Timings</string>
+    <string name="TextViewDuration_ViewPrescription">Duration</string>
+    <string name="HintQRDisplay">Scan the above QR Code by Pharmacy to get the required medicines!</string>
+    <string name="QRDisplay">QR to display Prescription Id</string>
+    <string name="hyphen">  -  </string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="ProfileClipart">Profile Clipart</string>
+    <string name="Email_ID">Email</string>
+    <string name="Contact_Number">Contact Number</string>
+    <string name="Password">Password</string>
+    <string name="PasswordValue">******</string>
+    <string name="EditButtonTitle">Edit Profile</string>
+    <string name="MyProfileOption">My Profile</string>
+    <string name="ChangePass">Change Password</string>
+    <string name="EditTextCurrentPass">Current Password</string>
+    <string name="EditTextNewPass">New Password</string>
+    <string name="EditTextConfirmPass">Confirm Password</string>
+    <string name="showPasswordText">SHOW</string>
+    <string name="sign_up_text">Take your first step with Us …</string>
+    <string name="sign_up_picture">Sign Up Picture</string>
+    <string name="login_to_continue">Login to Continue…</string>
+    <string name="log_in_picture">Log In Picture</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="image_start_pages">Image Start Pages</string>
+    <string name="id">ID</string>
+    <string name="if_no_prescription_of_doctor">Prescriptions made by you will\nbe seen here</string>
+    <string name="if_no_prescriptions_patient_prescription_list">Your prescriptions will be\nseen here</string>
+    <string name="textViewAboutUsTitle">About Us:</string>
+</resources>
