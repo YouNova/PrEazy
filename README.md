@@ -4,3 +4,5 @@ The database used for this project is firebase
 The project is in 2 parts:
   . The PrEazy app which is the application to be used by Doctor, patients and pharmacies
   . The PrEazyAdmin app which is the administraction app for analytic purpose
+
+Please contact me for database access
